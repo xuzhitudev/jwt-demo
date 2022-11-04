@@ -1,0 +1,12 @@
+POST http://localhost:3100/login HTTP/1.1
+content-type: application/json
+
+{
+    "username": "一只特立独行的飞猪",
+    "password": "123456"
+}
+
+###
+
+GET http://localhost:3100/home HTTP/1.1
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IuS4gOWPqueJueeri-eLrOihjOeahOmjnueMqiIsImlhdCI6MTY2NzU0NDg3NiwiZXhwIjoxNjY3NTQ0OTA2fQ.jv40oNatem4rSdZ8i9uj4s8BQMGaUp52YRhgbza4aw0
